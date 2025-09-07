@@ -1,0 +1,15 @@
+name: af3-arpeggio
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - openbabel
+  - biopython
+  - gemmi
+  - numpy
+  - pandas
+  - matplotlib
+  - networkx
+  - tk
+  - pip
+  - pip:
+      - pdbe-arpeggio

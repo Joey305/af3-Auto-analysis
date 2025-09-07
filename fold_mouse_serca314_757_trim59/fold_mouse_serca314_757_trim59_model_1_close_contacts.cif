@@ -1,0 +1,239 @@
+data_fold_mouse_serca314_757_trim59_model_1_close_contacts
+_entry.id 'fold_mouse_serca314_757_trim59_model_1_close_contacts'
+
+_cell.entry_id 'fold_mouse_serca314_757_trim59_model_1_close_contacts'
+_cell.length_a 1
+_cell.length_b 1
+_cell.length_c 1
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id 'fold_mouse_serca314_757_trim59_model_1_close_contacts'
+_symmetry.space_group_name_H-M ''
+
+loop_
+_entity.id
+_entity.type
+A polymer
+B polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+A polypeptide(L) A ?
+B polypeptide(L) B ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+ARG .
+ASN .
+ASP .
+CYS .
+GLU .
+GLY .
+HIS .
+ILE .
+LEU .
+LYS .
+PHE .
+PRO .
+SER .
+THR .
+TYR .
+VAL .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+Axp A
+Bxp B
+
+
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 C CB . ILE Axp A . ? 26.273 9.005 -22.421 1 78.44 ? 19 A 1
+ATOM 2 C CG . LYS Axp A . ? 26.341 2.662 -13.855 1 67.82 ? 15 A 1
+ATOM 3 C CG . ARG Axp A . ? 29.973 11.807 -25.936 1 72.48 ? 21 A 1
+ATOM 4 C CA . THR Axp A . ? 28.369 15.262 -31.525 1 85.63 ? 416 A 1
+ATOM 5 C CA . LYS Axp A . ? 30.785 23.793 -28.762 1 88.97 ? 399 A 1
+ATOM 6 N N . GLY Axp A . ? 29.304 21.188 -23.17 1 89.73 ? 404 A 1
+ATOM 7 C CE . LYS Axp A . ? 8.487 1.714 -24.475 1 54.66 ? 118 A 1
+ATOM 8 N N . ARG Axp A . ? 31.235 11.814 -23.186 1 79.19 ? 21 A 1
+ATOM 9 C CB . SER Axp A . ? 35.173 14.873 -23.713 1 72.32 ? 22 A 1
+ATOM 10 C C . THR Axp A . ? 29.076 16.543 -31.114 1 86.28 ? 416 A 1
+ATOM 11 C C . LYS Axp A . ? 31.52 24.919 -28.045 1 89.37 ? 399 A 1
+ATOM 12 C CG . LYS Axp A . ? 30.836 22.55 -30.978 1 77.86 ? 399 A 1
+ATOM 13 C CD . ARG Axp A . ? 29.411 12.675 -27.069 1 70.2 ? 21 A 1
+ATOM 14 N NE . ARG Axp A . ? 28.756 11.861 -28.067 1 64.75 ? 21 A 1
+ATOM 15 N NZ . LYS Axp A . ? 28.623 0.3 -12.012 1 47.13 ? 15 A 1
+ATOM 16 C CA . ARG Axp A . ? 31.972 11.552 -24.431 1 77.72 ? 21 A 1
+ATOM 17 C C . ALA Axp A . ? 31.632 25.174 -23.23 1 90.01 ? 401 A 1
+ATOM 18 C CG2 . ILE Axp A . ? 27.37 8.326 -23.257 1 72.65 ? 19 A 1
+ATOM 19 C CG2 . VAL Axp A . ? 20.462 19.893 -36.664 1 71.48 ? 392 A 1
+ATOM 20 O O . GLU Axp A . ? 33.311 21.993 -21.68 1 86.72 ? 402 A 1
+ATOM 21 C CB . LYS Axp A . ? 31.024 23.896 -30.269 1 87.73 ? 399 A 1
+ATOM 22 C C . GLU Axp A . ? 32.576 22.945 -21.416 1 88.42 ? 402 A 1
+ATOM 23 C CG1 . VAL Axp A . ? 24.88 19.19 -35.501 1 75.07 ? 413 A 1
+ATOM 24 N NH2 . ARG Axp A . ? 28.256 11.247 -30.154 1 53.8 ? 21 A 1
+ATOM 25 C CA . GLU Axp A . ? 33.126 24.375 -21.463 1 88.63 ? 402 A 1
+ATOM 26 C CA . LYS Axp A . ? 24.866 4.539 -14.662 1 76.76 ? 15 A 1
+ATOM 27 C CB . VAL Axp A . ? 20.873 21.331 -36.339 1 80.66 ? 392 A 1
+ATOM 28 C C . ILE Axp A . ? 29.288 21.701 -21.951 1 89.81 ? 403 A 1
+ATOM 29 O O . SER Axp A . ? 29.954 16.106 -26.773 1 85.58 ? 418 A 1
+ATOM 30 C CG . GLU Axp A . ? 32.741 18.038 -23.607 1 80.6 ? 419 A 1
+ATOM 31 C CE . LYS Axp A . ? 30.972 21.339 -33.169 1 61.7 ? 399 A 1
+ATOM 32 O O . ALA Axp A . ? 29.807 19.862 -28.495 1 85.42 ? 417 A 1
+ATOM 33 O O . LYS Axp A . ? 22.726 5.106 -13.758 1 75.14 ? 15 A 1
+ATOM 34 C CA . GLU Axp A . ? 30.789 16.461 -24.128 1 86.51 ? 419 A 1
+ATOM 35 N N . GLU Axp A . ? 29.965 17.37 -24.93 1 87.69 ? 419 A 1
+ATOM 36 O OG1 . THR Axp A . ? 27.666 15.982 -33.732 1 74.02 ? 416 A 1
+ATOM 37 C CB . GLU Axp A . ? 31.577 17.223 -23.063 1 85.39 ? 419 A 1
+ATOM 38 C CA . SER Axp A . ? 28.509 18.037 -26.757 1 88.46 ? 418 A 1
+ATOM 39 C CA . VAL Axp A . ? 24.515 16.942 -34.414 1 85.12 ? 413 A 1
+ATOM 40 C CZ . ARG Axp A . ? 32.494 -1.536 -15.739 1 50.09 ? 11 A 1
+ATOM 41 O O . ALA Axp A . ? 32.019 24.323 -24.027 1 88.51 ? 401 A 1
+ATOM 42 N N . LYS Axp A . ? 30.854 26.043 -27.786 1 89.76 ? 400 A 1
+ATOM 43 C CD . GLU Axp A . ? 32.364 19.421 -24.098 1 77.34 ? 419 A 1
+ATOM 44 O O . GLY Axp A . ? 27.918 18.714 -23.382 1 88.1 ? 404 A 1
+ATOM 45 C CB . VAL Axp A . ? 23.94 17.988 -35.369 1 83.6 ? 413 A 1
+ATOM 46 C CD . LYS Axp A . ? 27.065 2.106 -12.633 1 62.82 ? 15 A 1
+ATOM 47 C CB . THR Axp A . ? 28.504 15.102 -33.036 1 84.46 ? 416 A 1
+ATOM 48 N NE . ARG Axp A . ? 31.88 -0.363 -15.791 1 57.09 ? 11 A 1
+ATOM 49 C C . ILE Axp A . ? 27.984 10.617 -21.422 1 80.87 ? 19 A 1
+ATOM 50 C CZ . ARG Axp A . ? 28.689 12.139 -29.327 1 59.11 ? 21 A 1
+ATOM 51 C CA . GLY Axp A . ? 28.086 21.031 -23.947 1 89.74 ? 404 A 1
+ATOM 52 O O . VAL Axp A . ? 31.573 9.803 -22.25 1 74.69 ? 20 A 1
+ATOM 53 C CG2 . THR Axp A . ? 28.177 13.694 -33.493 1 70.89 ? 416 A 1
+ATOM 54 O O . ARG Axp A . ? 34.255 11.345 -25.079 1 74.71 ? 21 A 1
+ATOM 55 C C . LEU Axp A . ? 28.828 23.36 -27.327 1 89.35 ? 398 A 1
+ATOM 56 O OG . SER Axp A . ? 36.445 15.406 -23.443 1 64.22 ? 22 A 1
+ATOM 57 N NH1 . ARG Axp A . ? 29.073 13.282 -29.816 1 53.94 ? 21 A 1
+ATOM 58 C C . SER Axp A . ? 29.557 17.095 -26.16 1 87.94 ? 418 A 1
+ATOM 59 C CD . LYS Axp A . ? 31.09 22.693 -32.484 1 71.21 ? 399 A 1
+ATOM 60 O OE1 . GLU Axp A . ? 33.305 20.141 -24.489 1 68.31 ? 419 A 1
+ATOM 61 C CE . LYS Axp A . ? 27.887 0.913 -13.114 1 53.9 ? 15 A 1
+ATOM 62 N NH2 . ARG Axp A . ? 31.873 -2.622 -16.057 1 43.57 ? 11 A 1
+ATOM 63 O O . ILE Axp A . ? 27.763 11.537 -22.205 1 78.96 ? 19 A 1
+ATOM 64 O O . LYS Axp A . ? 32.706 24.764 -27.789 1 87.88 ? 399 A 1
+ATOM 65 O O . THR Axp A . ? 30.299 16.534 -30.951 1 84.17 ? 416 A 1
+ATOM 66 C C . VAL Axp A . ? 31.086 10.927 -22.212 1 77.2 ? 20 A 1
+ATOM 67 C CB . LYS Axp A . ? 25.527 3.882 -13.451 1 75.86 ? 15 A 1
+ATOM 68 C CG2 . VAL Axp A . ? 23.687 17.348 -36.74 1 75.66 ? 413 A 1
+ATOM 69 C C . ALA Axp A . ? 29.103 18.964 -28.957 1 87.68 ? 417 A 1
+ATOM 70 C CG1 . VAL Axp A . ? 22.002 21.735 -37.284 1 71.38 ? 392 A 1
+ATOM 71 O OE2 . GLU Axp A . ? 31.171 19.789 -24.21 1 69.2 ? 419 A 1
+ATOM 72 O O . LEU Axp A . ? 29.541 22.911 -26.43 1 88.07 ? 398 A 1
+ATOM 73 C CG . PRO Axp A . ? 26.245 27.012 -33.775 1 82.32 ? 396 A 1
+ATOM 74 O O . ALA Axp A . ? 24.995 14.517 -33.093 1 83.31 ? 412 A 1
+ATOM 75 N NZ . LYS Axp A . ? 31.254 21.398 -34.622 1 54.1 ? 399 A 1
+ATOM 76 C CB . ARG Axp A . ? 31.341 12.354 -25.566 1 76.24 ? 21 A 1
+ATOM 77 N NZ . LYS Axp A . ? 8.816 3.111 -24.823 1 50.01 ? 118 A 1
+ATOM 78 N N . SER Axp A . ? 28.515 18.057 -28.212 1 88.72 ? 418 A 1
+ATOM 79 N N . LYS Axp A . ? 29.342 23.777 -28.485 1 89.42 ? 399 A 1
+ATOM 80 O O . ILE Bxp B . ? 26.83 9.233 -31.629 1 65.09 ? 12 B 1
+ATOM 81 C CG . LYS Bxp B . ? 35.22 21.402 -33.271 1 59.09 ? 55 B 1
+ATOM 82 C CE2 . TYR Bxp B . ? 27.252 8.024 -27.601 1 45.7 ? 14 B 1
+ATOM 83 N NZ . LYS Bxp B . ? 34.27 23.601 -30.207 1 44.2 ? 55 B 1
+ATOM 84 C CG1 . VAL Bxp B . ? 30.199 17.249 -37.22 1 63.74 ? 37 B 1
+ATOM 85 C CG . ASP Bxp B . ? 28.941 -3.778 -14.708 1 68.22 ? 133 B 1
+ATOM 86 O O . ALA Bxp B . ? 25.066 22.543 -39.291 1 53.57 ? 40 B 1
+ATOM 87 N N . ALA Bxp B . ? 25.278 19.397 -40.936 1 62.05 ? 40 B 1
+ATOM 88 C CG . ASP Bxp B . ? 24.063 -0.739 -12.191 1 68.07 ? 132 B 1
+ATOM 89 C C . PRO Bxp B . ? 34.276 15.043 -30.635 1 73.29 ? 57 B 1
+ATOM 90 N N . ASP Bxp B . ? 25.536 -2.186 -14.771 1 77.32 ? 133 B 1
+ATOM 91 C CB . ASP Bxp B . ? 27.891 -2.689 -14.813 1 73.63 ? 133 B 1
+ATOM 92 C CB . VAL Bxp B . ? 29.427 16.082 -37.848 1 69.82 ? 37 B 1
+ATOM 93 N NH2 . ARG Bxp B . ? 31.792 20.31 -26.039 1 40.52 ? 60 B 1
+ATOM 94 C CE2 . PHE Bxp B . ? 25.273 29.425 -37.879 1 22.25 ? 44 B 1
+ATOM 95 C CZ . TYR Bxp B . ? 28.224 7.769 -26.612 1 47.27 ? 14 B 1
+ATOM 96 C CA . ALA Bxp B . ? 24.752 20.234 -39.868 1 59.4 ? 40 B 1
+ATOM 97 C CE . LYS Bxp B . ? 35.06 22.669 -31.063 1 49.37 ? 55 B 1
+ATOM 98 C CA . ILE Bxp B . ? 29.079 9.502 -32.362 1 72.09 ? 12 B 1
+ATOM 99 C CA . PRO Bxp B . ? 33.593 15.442 -31.948 1 73.75 ? 57 B 1
+ATOM 100 C CA . SER Bxp B . ? 27.617 -3.246 -9.889 1 78.99 ? 136 B 1
+ATOM 101 O OD1 . ASP Bxp B . ? 29.147 -4.491 -15.704 1 60.23 ? 133 B 1
+ATOM 102 C CB . LYS Bxp B . ? 34.57 21.204 -34.651 1 66.72 ? 55 B 1
+ATOM 103 C CD . ARG Bxp B . ? 35.061 20.544 -27.591 1 54.51 ? 60 B 1
+ATOM 104 C CD2 . TYR Bxp B . ? 26.742 6.959 -28.354 1 50.46 ? 14 B 1
+ATOM 105 C C . LYS Bxp B . ? 35.249 18.763 -35.125 1 72.87 ? 55 B 1
+ATOM 106 C CD . LYS Bxp B . ? 34.466 22.468 -32.458 1 54.87 ? 55 B 1
+ATOM 107 O OG . SER Bxp B . ? 28.886 -1.639 -11.049 1 68.21 ? 136 B 1
+ATOM 108 O OD1 . ASN Bxp B . ? 35.062 11.397 -29.337 1 58.84 ? 58 B 1
+ATOM 109 C CD1 . ILE Bxp B . ? 30.876 11.507 -35.23 1 62.03 ? 12 B 1
+ATOM 110 C CB . ILE Bxp B . ? 29.292 10.042 -33.795 1 70.72 ? 12 B 1
+ATOM 111 O OD2 . ASP Bxp B . ? 29.536 -3.876 -13.619 1 60.38 ? 133 B 1
+ATOM 112 N NH1 . ARG Bxp B . ? 33.353 21.821 -25.623 1 40.33 ? 60 B 1
+ATOM 113 C C . PRO Bxp B . ? 30.642 8.62 -30.64 1 73.61 ? 11 B 1
+ATOM 114 O O . LYS Bxp B . ? 34.17 18.19 -35.178 1 70.28 ? 55 B 1
+ATOM 115 C CG2 . ILE Bxp B . ? 28.029 10.769 -34.292 1 65.99 ? 12 B 1
+ATOM 116 C CB . SER Bxp B . ? 27.574 -1.933 -10.66 1 77.44 ? 136 B 1
+ATOM 117 O OD2 . ASP Bxp B . ? 23.811 -0.623 -10.972 1 61.4 ? 132 B 1
+ATOM 118 O O . ASN Bxp B . ? 36.937 15.477 -27.802 1 67.93 ? 58 B 1
+ATOM 119 O O . ASN Bxp B . ? 25.737 16.578 -39.928 1 69.16 ? 36 B 1
+ATOM 120 N NE . ARG Bxp B . ? 33.778 20.084 -27.073 1 49.02 ? 60 B 1
+ATOM 121 C CG2 . VAL Bxp B . ? 29.062 15.147 -36.695 1 64.01 ? 37 B 1
+ATOM 122 N N . SER Bxp B . ? 28.075 -4.326 -10.752 1 79.95 ? 136 B 1
+ATOM 123 O OH . TYR Bxp B . ? 28.733 8.8 -25.86 1 45.35 ? 14 B 1
+ATOM 124 C C . ASN Bxp B . ? 26.352 15.511 -39.925 1 71.59 ? 36 B 1
+ATOM 125 C CG1 . ILE Bxp B . ? 30.518 10.976 -33.838 1 66.84 ? 12 B 1
+ATOM 126 C CA . ASP Bxp B . ? 26.488 -3.263 -14.982 1 76.25 ? 133 B 1
+ATOM 127 C CA . VAL Bxp B . ? 28.175 16.54 -38.616 1 70.44 ? 37 B 1
+ATOM 128 O O . PRO Bxp B . ? 30.113 9.297 -29.772 1 70.17 ? 11 B 1
+ATOM 129 N N . PRO Bxp B . ? 34.504 15.667 -33.062 1 76.26 ? 57 B 1
+ATOM 130 N ND1 . HIS Bxp B . ? 12.637 3.106 -25.605 1 58.38 ? 127 B 1
+ATOM 131 C CD1 . TYR Bxp B . ? 28.162 5.413 -27.127 1 52.94 ? 14 B 1
+ATOM 132 C CE1 . HIS Bxp B . ? 13.174 4.212 -26.167 1 54.02 ? 127 B 1
+ATOM 133 C CG . PRO Bxp B . ? 32.652 14.502 -33.95 1 70.14 ? 57 B 1
+ATOM 134 C CZ . ARG Bxp B . ? 32.984 20.739 -26.239 1 43.5 ? 60 B 1
+ATOM 135 N N . ILE Bxp B . ? 30.221 8.696 -31.91 1 74.07 ? 12 B 1
+ATOM 136 C CA . ASP Bxp B . ? 23.324 -1.215 -14.641 1 75.1 ? 132 B 1
+ATOM 137 C C . ALA Bxp B . ? 25.601 21.481 -39.604 1 57.74 ? 40 B 1
+ATOM 138 C CB . PRO Bxp B . ? 32.647 14.338 -32.436 1 72.3 ? 57 B 1
+ATOM 139 C CB . ALA Bxp B . ? 24.644 19.374 -38.628 1 56.19 ? 40 B 1
+ATOM 140 C CA . LYS Bxp B . ? 35.342 20.223 -35.558 1 70.97 ? 55 B 1
+ATOM 141 C C . ILE Bxp B . ? 27.765 8.725 -32.241 1 70.12 ? 12 B 1
+ATOM 142 C CG . ASN Bxp B . ? 36.244 11.426 -29.558 1 65.87 ? 58 B 1
+ATOM 143 C CG . ARG Bxp B . ? 35.494 19.691 -28.797 1 59.79 ? 60 B 1
+ATOM 144 C CG . HIS Bxp B . ? 13.32 2.01 -26.078 1 65.67 ? 127 B 1
+ATOM 145 C CB . HIS Bxp B . ? 13.092 0.579 -25.663 1 70.58 ? 127 B 1
+ATOM 146 O O . HIS Bxp B . ? 12.139 1.149 -22.806 1 69.93 ? 127 B 1
+ATOM 147 N N . LYS Bxp B . ? 34.866 20.332 -36.944 1 70.73 ? 55 B 1
+ATOM 148 O O . PRO Bxp B . ? 33.763 15.365 -29.573 1 69.92 ? 57 B 1
+ATOM 149 N N . CYS Bxp B . ? 27.691 7.538 -32.828 1 69.64 ? 13 B 1
+ATOM 150 O OD1 . ASP Bxp B . ? 25.147 -0.304 -12.663 1 62.52 ? 132 B 1
+ATOM 151 O O . ILE Bxp B . ? 21.652 0.93 -15.256 1 71.71 ? 131 B 1
+ATOM 152 N N . VAL Bxp B . ? 27.513 15.401 -39.292 1 72.49 ? 37 B 1
+ATOM 153 C CE1 . TYR Bxp B . ? 28.673 6.459 -26.365 1 46.25 ? 14 B 1

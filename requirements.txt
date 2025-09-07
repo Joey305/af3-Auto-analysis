@@ -1,0 +1,8 @@
+biopython
+gemmi
+numpy
+pandas
+matplotlib
+networkx
+openbabel-wheel
+pdbe-arpeggio

@@ -1,0 +1,14 @@
+Ligand,Ligand_Chain,Ligand_Number,Ligand_Atom,Contact_Type,Distance,Residue,Residue_Chain,Residue_Number,Residue_Atom
+TRP,B,47,CH2,vdw_clash,3.14,GLU,A,99,OE1
+TRP,B,47,CH2,weak_polar,3.14,GLU,A,99,OE1
+TRP,B,47,CD1,vdw_clash,3.08,VAL,A,195,CG1
+VAL,A,195,CG1,vdw,3.49,TRP,B,47,CG
+VAL,A,195,CG1,hydrophobic,3.49,TRP,B,47,CG
+TYR,B,45,CD1,vdw_clash,3.28,ALA,A,193,CB
+TYR,B,45,CD1,hydrophobic,3.28,ALA,A,193,CB
+TYR,B,45,OH,vdw,3.28,ARG,A,192,CB
+TYR,B,45,OH,weak_polar,3.28,ARG,A,192,CB
+ALA,A,193,CA,vdw,3.48,TYR,B,45,CE1
+TRP,B,47,CD1,vdw_clash,3.36,VAL,A,195,CG2
+ASN,B,43,O,vdw_clash,3.06,PHE,A,142,CD1
+ASN,B,43,O,weak_polar,3.06,PHE,A,142,CD1

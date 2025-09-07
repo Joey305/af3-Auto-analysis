@@ -1,0 +1,25 @@
+[{
+ "name": "Mouse_Serca111-253_NNAT",
+ "modelSeeds": [
+  "913282909"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "NAENAIEALKEYEPEMGKVYRADRKSVQRIKARDIVPGDIVEVAVGDKVPADIRILSIKSTTLRVDQSILTGESVSVIKHTDPVPDPRAVNQDKKNMLFSGTNIAAGKAVGIVATTGVSTEIGKIRDQMAATEQDKTPLQQKL",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "proteinChain": {
+    "sequence": "MAAVAAASAELLIIGWYIFRVLLQVFLECCIYWVGFAFRNPPGTQPIARSEVFRYSLQKLAHTVSRTGRQVLGERRQRAPN",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]
