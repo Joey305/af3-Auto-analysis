@@ -58,8 +58,72 @@ def list_local_zips(cwd=".") -> List[str]:
     except Exception:
         return []
 
+# ---- NEW: cross-platform “bring to front” file dialog ----
+def askopen_frontmost(title: str, initialdir: Optional[str] = None) -> Optional[str]:
+    """
+    Opens a Tk file dialog and aggressively brings it to the foreground.
+    Works in regular terminals and most IDE terminals (VS Code, PyCharm).
+    """
+    try:
+        import tkinter as tk
+        from tkinter import filedialog as fd
+    except Exception as e:
+        log.warning(f"Tk interop not available: {e}")
+        return None
+
+    root = tk.Tk()
+    # Create a tiny (hidden) parent window to own the dialog
+    root.withdraw()
+    try:
+        # Try to make our process frontmost on macOS (helps when launched from IDEs)
+        if sys.platform == "darwin":
+            try:
+                os.system(  # harmless if it fails
+                    f"/usr/bin/osascript -e 'tell application \"System Events\" "
+                    f"to set frontmost of (first process whose unix id is {os.getpid()}) to true'"
+                )
+            except Exception:
+                pass
+
+        # Deiconify/lift/focus and mark as topmost so the dialog inherits foreground state
+        root.update_idletasks()
+        root.deiconify()
+        root.lift()
+        try:
+            root.attributes("-topmost", True)
+        except Exception:
+            pass
+        root.focus_force()
+
+        # On Windows, also call SetForegroundWindow for reliability
+        if sys.platform.startswith("win"):
+            try:
+                import ctypes
+                ctypes.windll.user32.SetForegroundWindow(root.winfo_id())
+            except Exception:
+                pass
+
+        # Show dialog with this root as explicit parent (important!)
+        path = fd.askopenfilename(
+            parent=root,
+            title=title,
+            initialdir=initialdir or os.getcwd(),
+            filetypes=[("Zip files", "*.zip"), ("All files", "*.*")]
+        )
+        return path or None
+    finally:
+        # Drop topmost and destroy parent so it doesn't linger
+        try:
+            root.attributes("-topmost", False)
+        except Exception:
+            pass
+        try:
+            root.destroy()
+        except Exception:
+            pass
+
 def choose_zip_menu() -> Optional[str]:
-    """Menu that lists zips; 0 = browse (Tk), t = typed path, q = quit."""
+    """Menu that lists zips; 0 = browse (frontmost Tk), t = typed path, q = quit."""
     zips = list_local_zips(".")
     print("\n=== AF3 One-Zip Analyzer ===")
     print("Pick a ZIP from the list, or choose an option:")
@@ -80,18 +144,8 @@ def choose_zip_menu() -> Optional[str]:
         if choice == "r":
             return choose_zip_menu()
         if choice == "0":
-            try:
-                import tkinter as tk
-                from tkinter import filedialog
-                root = tk.Tk(); root.withdraw(); root.update_idletasks()
-                path = filedialog.askopenfilename(
-                    title="Select AF3 ZIP",
-                    filetypes=[("Zip files", "*.zip"), ("All files", "*.*")]
-                )
-                return path or None
-            except Exception as e:
-                log.warning(f"File dialog unavailable ({e}). Fallback to typed path.")
-                choice = "t"
+            path = askopen_frontmost("Select AF3 ZIP")
+            return path or None
         if choice == "t":
             path = input("ZIP path: ").strip()
             return path or None
@@ -212,7 +266,6 @@ def prompt_yes_no(msg: str, default_yes: bool = True) -> bool:
     if s == "":
         return default_yes
     return s.startswith("y")
-
 
 def suggest_chains(kind: str, stats: Dict[str, Dict]) -> Tuple[str, str, str, str]:
     clean = {ch: d for ch, d in stats.items() if not d["is_water_only"]}
@@ -513,13 +566,12 @@ def main():
                 reuse = "n"
 
         if not reuse.startswith("y"):
-            # NEW:
             kind = choose_interaction_type()
             defaults = suggest_chains(kind, stats)
             g1_chain, g2_chain, g1_name, g2_name = prompt_chain_names(defaults, stats)
 
             if prev_settings is None:
-                # First run: just use the global value you already entered
+                # First run: use the global distance you already entered
                 distance = distance_default
                 print(f"Using distance {distance} Å for this run.")
             else:
@@ -528,10 +580,8 @@ def main():
                     distance = distance_default
                 else:
                     distance = prompt_distance(distance_default)
-                    # Optionally make the new value the default for later runs
                     if prompt_yes_no("Use this as the default for subsequent runs?", default_yes=True):
                         distance_default = distance
-
 
         prev_settings = (g1_chain, g2_chain, g1_name, g2_name, kind, distance)
 
