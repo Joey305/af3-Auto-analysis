@@ -1,8 +1,14 @@
-biopython
-gemmi
-numpy
-pandas
-matplotlib
-networkx
-openbabel-wheel
-pdbe-arpeggio
+# Use Python 3.11 for best compatibility with Open Babel & Arpeggio
+# (pip cannot enforce Python version; set it in your venv/pyenv)
+
+biopython>=1.83,<2
+gemmi>=0.6
+numpy>=1.23
+pandas>=2.0
+matplotlib>=3.7
+networkx>=3.0
+pdbe-arpeggio>=0.3
+
+# Optional: try to install the Open Babel wheel on Linux/Windows.
+# On macOS, this marker prevents pip from trying a non-existent wheel.
+openbabel-wheel; platform_system != "Darwin"
